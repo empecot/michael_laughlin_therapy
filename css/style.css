@@ -1,0 +1,146 @@
+/*
+Project Name: Michael Laughlin Therapy
+Author: Emily Pecot
+Developer @GA in NYC
+*/
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+.clear {
+  clear: both;
+}
+
+.fl {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+html {
+  text-align: center;
+  background-color: #404040;
+  color:  #f2f2f2;
+}
+aside {
+  height: 100%;
+  width: 100px;
+  background-color: #404040;
+  font-family: 'Poiret One', sans-serif;
+  font-size: 25px;
+  font-color: #f2f2f2;
+  padding-top: 30px;
+  padding-left: 50px;
+  float: left;
+  margin-right: 30px;
+}
+      .dove {
+        height: 25px;
+        width: auto;
+        display: inline-block;
+        margin-left: 15px;
+        border-radius: 4px;
+      }
+      h1 {
+        font-family: 'Playfair Display', times;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 25px;
+        line-height: 30px;
+      }
+      h2 {
+        font-size: 25px;
+        font-family: 'Cinzel', sans-serif;
+        font-weight: 400;
+        letter-spacing: 3px;
+        margin-bottom: -10px;
+        margin-top: 10px;
+      }
+      ul {
+        line-height: 45px;
+      }
+
+.main {
+  height: 550px;
+  width: 80%;
+  background: url('../images/sunset1.jpg');
+  background-size: 100%;
+  background-position: center bottom;
+  display: inline-blocks;
+  margin-left: 20px;
+  float: right;
+}
+h3 {
+  text-align: left;
+  font-color: #f2f2f2;
+  font-family: 'Cinzel', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 425px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color:  #262626;; 
+  opacity: .80;
+  width: 250px;
+}
+.tagline { 
+  text-align: left;
+  font-color: #f2f2f2;
+  font-family: 'Cinzel', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  width: 100%;
+  height: 75px;
+  float: right;
+  padding: 15px 20px 5px 10px;
+  margin-bottom: 20px;
+  background-color:  #262626;; 
+  opacity: .70;
+  
+
+  
+
+}
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: #404040;
+  color: font-size: 25px;
+  font-color: #f2f2f2;
+  font-size: 25px;
+  font-family: 'Poiret One', sans-serif;
+  text-align: left;
+  padding-left: 300px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  
+  clear: both;
+}
+#aristotle {
+  text-align: right;
+  padding-right: 350px;
+}
