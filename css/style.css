@@ -40,107 +40,86 @@ Developer @GA in NYC
 /*******************************************/
 
 html {
-  text-align: center;
-  background-color: #404040;
-  color:  #f2f2f2;
+  color: #705c38;
 }
-aside {
-  height: 100%;
-  width: 100px;
-  background-color: #404040;
-  font-family: 'Poiret One', sans-serif;
-  font-size: 25px;
-  font-color: #f2f2f2;
-  padding-top: 30px;
-  padding-left: 50px;
-  float: left;
-  margin-right: 30px;
-}
-      .dove {
-        height: 25px;
-        width: auto;
-        display: inline-block;
-        margin-left: 15px;
-        border-radius: 4px;
-      }
-      h1 {
-        font-family: 'Playfair Display', times;
-        font-size: 30px;
-        font-weight: 700;
-        margin-top: 25px;
-        line-height: 30px;
-      }
-      h2 {
-        font-size: 25px;
-        font-family: 'Cinzel', sans-serif;
-        font-weight: 400;
-        letter-spacing: 3px;
-        margin-bottom: -10px;
-        margin-top: 10px;
-      }
-      ul {
-        line-height: 45px;
-      }
 
-.main {
-  height: 550px;
-  width: 80%;
-  background: url('../images/sunset1.jpg');
-  background-size: 100%;
-  background-position: center bottom;
-  display: inline-blocks;
-  margin-left: 20px;
-  float: right;
+.home_page {
+  text-align: center;
+  
+}
+h1 {
+  padding-top: .8em;
+  padding-bottom: .2em;
+  font-size: 40px;
+  font-family: 'Cantata One', times;
+}
+h2 {
+  font-size: 30px;
+  font-family: 'Cinzel', sans;
+  padding-bottom: .5em;
+  margin-left: 2.5em;
 }
 h3 {
-  text-align: left;
-  font-color: #f2f2f2;
-  font-family: 'Cinzel', sans-serif;
-  font-weight: 400;
-  font-size: 40px;
-  margin-top: 425px;
-  padding-left: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background-color:  #262626;; 
-  opacity: .80;
-  width: 250px;
+  padding-bottom: 1em;
+  font-size: 18px;
+  font-family: 'Cinzel', sans;
 }
-.tagline { 
-  text-align: left;
-  font-color: #f2f2f2;
-  font-family: 'Cinzel', sans-serif;
-  font-style: italic;
-  font-weight: 400;
+nav {
+  width: 100%;
+  height: 3em;
+  background-color: white;
+  position: fixed;
+  padding-top: 1em;
+ 
+/* #the-sticky-div.sticky {
+     top: 0;
+*/
+}
+li {
+  display: inline-block;
+  padding-right:4em;
+  padding-left: 4em;
   font-size: 20px;
-  width: 100%;
-  height: 75px;
+  font-family: 'Cinzel', sans;
+}
+.home_pic {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  border: 1px groove #5b4825;
+  margin-bottom: 8em;
+}
+
+.profile_pic {
   float: right;
-  padding: 15px 20px 5px 10px;
-  margin-bottom: 20px;
-  background-color:  #262626;; 
-  opacity: .70;
-  
-
-  
-
+  width: 35%;
+  height: auto;
+  margin-right: 4em;
+  margin-top: 2em;
+  padding-left: 1em;
+  padding-bottom: 1em;
 }
-footer {
-  width: 100%;
-  height: 300px;
-  background-color: #404040;
-  color: font-size: 25px;
-  font-color: #f2f2f2;
-  font-size: 25px;
-  font-family: 'Poiret One', sans-serif;
-  text-align: left;
-  padding-left: 300px;
-  padding-bottom: 30px;
-  padding-top: 20px;
+
+p {
+  font-size: 18px;
+  font-family: 'Book Antiqua', sans;
+  margin-right: 3em;
+  margin-left: 4em;
   
-  clear: both;
 }
-#aristotle {
-  text-align: right;
-  padding-right: 350px;
+.about_blurb {
+  margin-bottom: 5em;
+}
+.subheadings {
+  margin-left: 4em;
+  margin-top: 1em;
+  margin-bottom: -.8em;
+  font-weight: bold;
+}
+
+.services_page {
+  margin-bottom: 5em;
 }
